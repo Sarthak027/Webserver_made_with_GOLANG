@@ -15,7 +15,7 @@ This is a basic static web server implemented in Go that serves static files fro
      ```bash
      go run main.go
 This will start the server on http://localhost:8080
-Endpoints
+## Endpoints
 ** `/hello`: Responds with a simple "hello!" message for GET requests.
 
 ** `/form`: Handles form submissions and displays the submitted data for POST requests.
