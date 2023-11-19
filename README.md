@@ -11,12 +11,14 @@ This is a basic static web server implemented in Go that serves static files fro
 1. Navigate to the directory;
     ```bash
     cd Webserver_made_with_GOLANG
-2. run the GO application:
+2. Run the GO application:
      ```bash
      go run main.go
 This will start the server on http://localhost:8080
 ## Endpoints
-** `/hello`: Responds with a simple "hello!" message for GET requests.
+`/hello`: Responds with a simple "hello!" message for GET requests.
 
-** `/form`: Handles form submissions and displays the submitted data for POST requests.
+ `/form`: Handles form submissions and displays the submitted data for POST requests.
      
+## Static Files
+Static files such as HTML, CSS, and JavaScript can be placed in the "static" directory, and they will be served by the web server.
